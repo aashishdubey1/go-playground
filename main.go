@@ -8,9 +8,12 @@ import (
 
 func main(){
 	fmt.Println("Starting")
-	nums := []int{1, 2, 3, 4}
-	res := dsa.FindRunningSum(nums)
+	nums := []int{10,4,8,3}
 
-	fmt.Print(res)
+
+	// fmt.Println(dsa.FindSum(nums))
+	// fmt.Println(dsa.FindSecondLargest(nums))
+	// fmt.Println(dsa.FindSmallestAndSecondSmallest(nums))
+	fmt.Println(dsa.LeftRightDifference(nums))
 
 }
